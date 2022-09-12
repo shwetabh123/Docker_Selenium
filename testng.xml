@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite" parallel="classes">
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="com.shwetabh.docker.GoogleSeachChrome"/>
+      <class name="com.shwetabh.docker.GoogleSearchFirefox"/>
+      <class name="com.shwetabh.docker.GoogleSeachChrome2"/>
+      <class name="com.shwetabh.docker.GoogleSeachChrome3"/>
+   
+   
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
